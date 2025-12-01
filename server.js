@@ -4,6 +4,8 @@
  * It sets up Express server, middleware, and routes
  */
 
+const fs = require('fs');
+
 const express = require('express');
 const cors = require('cors');
 const path = require('path');
