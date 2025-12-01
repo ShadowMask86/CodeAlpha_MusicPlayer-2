@@ -9,8 +9,8 @@ const cors = require('cors');
 const path = require('path');
 
 // Import routes from backend folder
-const tracksRouter = require('./backend/routes/tracks');
-const playlistsRouter = require('./backend/routes/playlists');
+const tracksRouter = require('./routes/tracks');
+const playlistsRouter = require('./routes/playlists');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
