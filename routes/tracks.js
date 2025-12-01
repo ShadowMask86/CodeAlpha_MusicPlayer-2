@@ -12,7 +12,7 @@ const express = require('express');
 const router = express.Router();
 const fs = require('fs');
 const path = require('path');
-const upload = require('../middleware/upload');
+const upload = require('../middleware/upload');   // requires middleware/upload.js
 const mm = require('music-metadata');
 
 const TRACKS_FILE = path.join(__dirname, '../data/tracks.json');
